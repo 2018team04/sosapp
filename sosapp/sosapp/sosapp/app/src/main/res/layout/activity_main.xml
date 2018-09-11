@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jc469638.sosapp.MainActivity">
+
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/message"
+        android:layout_marginTop="32dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="   SAVE OUR SOULS "
+        android:textColor="@android:color/background_dark"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/heading"
+        android:layout_marginStart="70dp"
+        android:layout_marginTop="31dp"
+        android:text="MESSAGE\n"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/emergencycontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/message"
+        android:layout_marginTop="41dp"
+        android:layout_toEndOf="@+id/mess"
+        android:fontFamily="cursive"
+        android:text="EMERGENCY\nContact"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="147dp"
+        tools:layout_editor_absoluteY="230dp" />
+
+    <Button
+        android:id="@+id/emergencycall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_alignBaseline="@+id/message"
+        android:layout_alignBottom="@+id/message"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="cursive"
+        android:text="Emergency\ncall"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView"
+        android:layout_alignEnd="@+id/emergencycall"
+        android:fontFamily="cursive"
+        android:text="exit\n"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/emergencycontact"
+        android:layout_marginTop="31dp"
+        android:cropToPadding="false"
+        app:srcCompat="@drawable/hk" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/heading"
+        android:layout_alignTop="@+id/heading"
+        android:layout_toStartOf="@+id/heading"
+        app:srcCompat="@drawable/sos" />
+
+    <ImageView
+        android:id="@+id/mess"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/message"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/message"
+        android:layout_toStartOf="@+id/heading"
+        app:srcCompat="@drawable/mess" />
+
+    <ImageView
+        android:id="@+id/contact"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/emergencycall"
+        android:layout_alignTop="@+id/emergencycall"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/emergencycontact"
+        app:srcCompat="@drawable/call" />
+
+
+    <ImageView
+        android:id="@+id/call"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/emergencycontact"
+        android:layout_toStartOf="@+id/emergencycontact"
+        app:srcCompat="@drawable/contact" />
+
+    <ImageView
+        android:id="@+id/exi"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/imageView"
+        android:layout_alignStart="@+id/contact"
+        android:layout_alignTop="@+id/exit"
+        app:srcCompat="@drawable/out" />
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

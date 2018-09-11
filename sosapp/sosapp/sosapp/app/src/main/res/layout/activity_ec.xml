@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.jc469638.sosapp.EcActivity">
+
+    <Button
+        android:id="@+id/addcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:fontFamily="cursive"
+        android:text="add contact"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/Contactlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/addcontact"
+        android:layout_below="@+id/addcontact"
+        android:layout_marginTop="86dp"
+        android:fontFamily="cursive"
+        android:text="Contact list"
+        android:textColor="@android:color/background_dark" />
+
+    <Button
+        android:id="@+id/editcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/Contactlist"
+        android:layout_below="@+id/Contactlist"
+        android:layout_marginTop="101dp"
+        android:fontFamily="cursive"
+        android:text="editcontact"
+        android:textColor="@android:color/background_dark" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="13dp"
+        android:fontFamily="cursive"
+        android:text="Emergency contact"
+        android:textColor="@android:color/background_dark"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/template"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/editcontact"
+        android:layout_alignStart="@+id/call"
+        android:layout_alignTop="@+id/Contactlist"
+        app:srcCompat="@drawable/call" />
+
+    <ImageView
+        android:id="@+id/template2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/Contactlist"
+        android:layout_alignStart="@+id/template"
+        android:layout_alignTop="@+id/addcontact"
+        app:srcCompat="@drawable/call" />
+
+
+    <ImageView
+        android:id="@+id/call"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignBottom="@+id/editcontact"
+        android:layout_alignParentStart="true"
+        android:layout_alignTop="@+id/editcontact"
+        android:layout_marginStart="60dp"
+        app:srcCompat="@drawable/contact" />
+
+</RelativeLayout>
